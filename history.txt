@@ -1,0 +1,78 @@
+    1  git --version
+    2  git init
+    3  ls
+    4  ls /data
+    5  ls/
+    6  pwd
+    7  mkdir Learning_unix
+    8  ls
+    9  cd Learning_unix
+   10  ~Learning_unix$ mkdir Outer_directory
+   11  /Learning_unix$ mkdir Outer_directory
+   12  Learning_unix$ mkdir Outer_directory
+   13  /Learning_unix$ mkdir Outer_directory^
+   14  /Learning_unix$ mkdir Outer_directory ^
+   15  \Learning_unix$ mkdir Outer_directory
+   16  mkdir git-basic-exercises
+   17  cd git-basic-exercises
+   18  ls -a
+   19  git init
+   20  ls -a
+   21  git status
+   22  touch README.md
+   23  ls -a
+   24  git status
+   25  git log
+   26  git add README.md
+   27  git status
+   28  git reset --README.md
+   29  git status
+   30  git rm --cached README.md
+   31  git status
+   32  git add README.md
+   33  git status
+   34  git commit -m "initial commit"
+   35  git config --global user.email "sabelon8@gmail.com"
+   36  git config --global user.name "coolndlela"
+   37  git commit -m "initial commit"
+   38  git log
+   39  q
+   40  nano README.md
+   41  cat README.md
+   42  git status
+   43  git add README.md
+   44  git status
+   45  git commit -m "Second commit"
+   46  nano README.md
+   47  cat README.md
+   48  nano README.md
+   49  git status
+   50  git add README.md
+   51  git commit -m "third commit"
+   52  git log
+   53  q
+   54  git checkout 
+   55  git checkout 
+   56  git checkout 75b5e3c6a5b98de24a6aef45d01e42f5c2179e34
+   57  cat README.md
+   58  git checkout main
+   59  git README.md
+   60  cat README.md
+   61  git branch
+   62  git branch milkshake-flavours
+   63  cd milkshake-flavours
+   64  git log
+   65  git checkout -b milkshake-flavours
+   66  git checkout milkshake-flavours
+   67  nano milkshakes.md
+   68  git status
+   69  git add milkshakes.md
+   70  git commit milkshakes.md -m "added initial flavours"
+   71  git log
+   72  git checkout git-basic-exercises
+   73  git checkout main
+   74  git branch history
+   75  git checkout history
+   76  git log
+   77  git branch
+   78  history > history.txt
